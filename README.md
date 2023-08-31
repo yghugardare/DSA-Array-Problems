@@ -14,6 +14,9 @@ DSA array problems
 - find intersection of two sorted arrays
 - find intersection of two arrays [GFG](https://practice.geeksforgeeks.org/problems/intersection-of-two-arrays2404/0) [Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/)
 - find missing number in an array [Leetcode](https://leetcode.com/problems/missing-number/) [GFG](https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1)
+- Find maximum consecutive one's [Leetcode](https://leetcode.com/problems/max-consecutive-ones/)
+- Find Single number, other appear twice [Leetcode](https://leetcode.com/problems/single-number/)
+
 
 
 
