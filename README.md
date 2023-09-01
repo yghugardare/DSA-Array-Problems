@@ -17,6 +17,8 @@ DSA array problems
 - Find maximum consecutive one's [Leetcode](https://leetcode.com/problems/max-consecutive-ones/)
 - Find Single number, other appear twice [Leetcode](https://leetcode.com/problems/single-number/)
 
+## Medium Problems - 
+- Two Sum [Leetcode](https://leetcode.com/problems/two-sum/)
 
 
 
