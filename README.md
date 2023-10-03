@@ -20,7 +20,10 @@ DSA array problems
 ## Medium Problems - 
 - Two Sum [Leetcode](https://leetcode.com/problems/two-sum/)
 - Largest Subarray with Sum K [GFG](https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
-- 
+- Majority Element-I [LeetCode](https://leetcode.com/problems/majority-element/)
+- Kadane's Algo- Find Maximum sum of subarray [Leetcode](https://leetcode.com/problems/maximum-subarray/)
+- Best time to buy and sell stock [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+
 
 
 
