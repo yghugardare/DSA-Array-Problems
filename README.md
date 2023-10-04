@@ -24,7 +24,8 @@ DSA array problems
 - Kadane's Algo- Find Maximum sum of subarray [Leetcode](https://leetcode.com/problems/maximum-subarray/)
 - Best time to buy and sell stock [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 - Rearrange Array Elements by Sign [LeetCode](https://leetcode.com/problems/rearrange-array-elements-by-sign/)
-
+- Leaders in an array [GFG](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article)
+- Longest Consecutive Sequence [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
 
 
