@@ -1,37 +1,54 @@
 import java.util.*;
 public class LongestConsecutiveSequence {
-    static void Sort(int[] arr,int n){
-        for (int i = 0; i <= n - 1; i++) {
-        int j = i;
-        while (j > 0 && arr[j - 1] > arr[j]) {
-            int temp = arr[j - 1];
-            arr[j - 1] = arr[j];
-            arr[j] = temp;
-            j--;
+    static int Brute(int[] nums) {
+        if(nums.length==0) return 0;
+        Arrays.sort(nums);
+        int largestNum = nums[0];
+        int cnt =1;
+        int maxCount = 1;
+        for(int i=1;i<nums.length;i++){
+            if(nums[i]-1==largestNum){
+                cnt+=1;
+                largestNum = nums[i];
+            }
+            else if(nums[i] != largestNum){
+                cnt =1;
+                largestNum = nums[i];
+            }
+            maxCount = Math.max(maxCount,cnt);
         }
-    }}
-    static int Brute(int[] arr,int n){
-    ArrayList<Integer>ans = new ArrayList<>();
-    // sort
-    Sort(arr,n);
-
-    for(int i=0;i<n-1;i++){
-        if(arr[i+1] != arr[i]+1){
-            ans.clear();
-            continue;
-        }
-        else{
-            ans.add(arr[i]);
-        }
+        return maxCount;
     }
-
-
-    return ans.size();
-
+    static int longestConsecutive(int[] nums) {
+        if(nums.length==0) return 0;
+        HashSet<Integer>hs = new HashSet<>();
+        // add elemens of nums to the hashet
+        // O(N)
+        for(int num:nums){
+            hs.add(num);
+        }
+        // check the consecutive sequence
+        int maxCount = 1;
+        
+        for(int num:hs){
+            int count =1;
+            if(!hs.contains(num-1)){
+                
+                int x = num;
+                while(hs.contains(x+1)){
+                    x = x+1;
+                    count++;
+                }
+                
+            }
+        maxCount = Math.max(maxCount,count);
+        }
+        return maxCount;
     }
     public static void main(String[] args) {
         int[] arr ={100,4,200,1,3,2};
-        int ans = Brute(arr, arr.length);
-        System.out.println(ans);
+        int ans = Brute(arr);
+        int ans1 = longestConsecutive(arr);
+        System.out.println(ans+" "+ans1);
     }
 }

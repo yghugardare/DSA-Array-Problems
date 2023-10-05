@@ -26,6 +26,10 @@ DSA array problems
 - Rearrange Array Elements by Sign [LeetCode](https://leetcode.com/problems/rearrange-array-elements-by-sign/)
 - Leaders in an array [GFG](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article)
 - Longest Consecutive Sequence [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+- Set Matrix Zero [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/description/)
+- Rotate matrix by 90 degrees or Rotate Image [LeetCode](https://leetcode.com/problems/rotate-image/description/)
+- Spiral Matrix [LeetCode](https://leetcode.com/problems/spiral-matrix/description/)
+- Subarray sum equal to K [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
 
 
